@@ -42,9 +42,11 @@ public class Main {
                     addLibro.agregarLibro();
                     break;
                 case 3://Eliminar Libro
+                    deleteLibro.eliminarLibro();
                     break;
                 case 4://Modificar disponibilidad
-
+                    updateDisponible.modificarDisponibilidad();
+                    obtenerInfoLibro.listarLibros();
                     break;
 
             }
